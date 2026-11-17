@@ -1,0 +1,24 @@
+<!doctype html>
+<!-- hel-standalone：给 src/styles/index.css 里的调试页样式做作用域，避免 hel_dist 把页面级样式注入宿主 -->
+<html lang="zh-CN" class="hel-standalone">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/comps-vue3-datav/hel_dist/favicon.ico" />
+    <title>comps-vue3-datav</title>
+    <!--
+      vue 被 external 成 window.Vue，独立访问本页时由这里的 CDN 提供运行时；
+      data-helappend="0"：宿主通过 hel 解析本页时跳过该脚本，
+      使用宿主自己注入的那一份，避免双实例（双 vue 会导致响应式失效）。
+    -->
+    <script data-helappend="0" src="https://unpkg.com/vue@3.5.45/dist/vue.global.prod.js"></script>
+    <script type="module" crossorigin src="/comps-vue3-datav/hel_dist/assets/index-pxjygB-x.js"></script>
+    <link rel="modulepreload" crossorigin href="/comps-vue3-datav/hel_dist/assets/preload-helper-BLPS1yfm.js">
+    <link rel="modulepreload" crossorigin href="/comps-vue3-datav/hel_dist/assets/vendor-CaUeaVIC.js">
+    <link rel="modulepreload" crossorigin href="/comps-vue3-datav/hel_dist/assets/shared-runtime-B891HOn0.js">
+    <link rel="stylesheet" crossorigin href="/comps-vue3-datav/hel_dist/assets/style-DKRRNDEO.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
