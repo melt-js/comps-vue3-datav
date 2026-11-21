@@ -6,7 +6,7 @@
     "online_version": "2026.11.16-2",
     "build_version": "2026.11.16-2",
     "platform": "unpkg",
-    "create_at": "2026-11-20T17:35:10.359Z"
+    "create_at": "2026-11-21T05:42:41.207Z"
   },
   "version": {
     "plugin_ver": "5.4.3",
@@ -23,10 +23,10 @@
         "/comps-vue3-datav/hel_dist/assets/style-CyeDph1J.css"
       ],
       "chunkJsSrcList": [
-        "/comps-vue3-datav/hel_dist/assets/index-D0ujkRNq.js",
+        "/comps-vue3-datav/hel_dist/assets/index-Dj7Sxn1P.js",
         "/comps-vue3-datav/hel_dist/assets/preload-helper-BLPS1yfm.js",
-        "/comps-vue3-datav/hel_dist/assets/shared-runtime-BHlZ-KIV.js",
-        "/comps-vue3-datav/hel_dist/assets/vendor-B6GjM3pP.js"
+        "/comps-vue3-datav/hel_dist/assets/shared-runtime-BRdfiJze.js",
+        "/comps-vue3-datav/hel_dist/assets/vendor-DgE0e5Tn.js"
       ],
       "staticCssSrcList": [],
       "staticJsSrcList": [
@@ -55,7 +55,7 @@
           "tag": "script",
           "append": true,
           "attrs": {
-            "src": "/comps-vue3-datav/hel_dist/assets/index-D0ujkRNq.js",
+            "src": "/comps-vue3-datav/hel_dist/assets/index-Dj7Sxn1P.js",
             "type": "module",
             "crossorigin": ""
           }
@@ -73,7 +73,7 @@
           "tag": "link",
           "append": true,
           "attrs": {
-            "href": "/comps-vue3-datav/hel_dist/assets/shared-runtime-BHlZ-KIV.js",
+            "href": "/comps-vue3-datav/hel_dist/assets/shared-runtime-BRdfiJze.js",
             "rel": "modulepreload",
             "crossorigin": ""
           }
@@ -82,7 +82,7 @@
           "tag": "link",
           "append": true,
           "attrs": {
-            "href": "/comps-vue3-datav/hel_dist/assets/vendor-B6GjM3pP.js",
+            "href": "/comps-vue3-datav/hel_dist/assets/vendor-DgE0e5Tn.js",
             "rel": "modulepreload",
             "crossorigin": ""
           }
@@ -99,23 +99,23 @@
       ],
       "bodyAssetList": [],
       "otherSrcList": [
-        "/comps-vue3-datav/hel_dist/assets/index-D0ujkRNq.js.gz",
-        "/comps-vue3-datav/hel_dist/assets/shared-runtime-BHlZ-KIV.js.gz",
+        "/comps-vue3-datav/hel_dist/assets/index-Dj7Sxn1P.js.gz",
+        "/comps-vue3-datav/hel_dist/assets/shared-runtime-BRdfiJze.js.gz",
         "/comps-vue3-datav/hel_dist/assets/style-CyeDph1J.css.gz",
         "/comps-vue3-datav/hel_dist/assets/texture_circle_inner-vRtEBE32.webp",
         "/comps-vue3-datav/hel_dist/assets/texture_circle_out-Bqg8uUXT.webp",
         "/comps-vue3-datav/hel_dist/assets/texture_map-B96fLEnx.webp",
         "/comps-vue3-datav/hel_dist/assets/texture_plane-7o1AHgii.webp",
         "/comps-vue3-datav/hel_dist/assets/texture_plane_dot-fnWj4fZ3.webp",
-        "/comps-vue3-datav/hel_dist/assets/vendor-B6GjM3pP.js.gz",
+        "/comps-vue3-datav/hel_dist/assets/vendor-DgE0e5Tn.js.gz",
         "/comps-vue3-datav/hel_dist/favicon.ico",
         "/comps-vue3-datav/hel_dist/index.html"
       ],
       "srvModSrcList": [],
       "srvModSrcIndex": ""
     },
-    "html_content": "<!doctype html>\n<!-- hel-standalone：给 src/styles/index.css 里的调试页样式做作用域，避免 hel_dist 把页面级样式注入宿主 -->\n<html lang=\"zh-CN\" class=\"hel-standalone\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"/comps-vue3-datav/hel_dist/favicon.ico\" />\n    <title>comps-vue3-datav</title>\n    <!--\n      vue 被 external 成 window.Vue，独立访问本页时由这里的 CDN 提供运行时；\n      data-helappend=\"0\"：宿主通过 hel 解析本页时跳过该脚本，\n      使用宿主自己注入的那一份，避免双实例（双 vue 会导致响应式失效）。\n    -->\n    <script data-helappend=\"0\" src=\"https://unpkg.com/vue@3.5.45/dist/vue.global.prod.js\"></script>\n    <script type=\"module\" crossorigin src=\"/comps-vue3-datav/hel_dist/assets/index-D0ujkRNq.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vue3-datav/hel_dist/assets/preload-helper-BLPS1yfm.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vue3-datav/hel_dist/assets/shared-runtime-BHlZ-KIV.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vue3-datav/hel_dist/assets/vendor-B6GjM3pP.js\">\n    <link rel=\"stylesheet\" crossorigin href=\"/comps-vue3-datav/hel_dist/assets/style-CyeDph1J.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
-    "create_at": "2026-11-20T17:35:10.359Z",
+    "html_content": "<!doctype html>\n<!-- hel-standalone：给 src/styles/index.css 里的调试页样式做作用域，避免 hel_dist 把页面级样式注入宿主 -->\n<html lang=\"zh-CN\" class=\"hel-standalone\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"/comps-vue3-datav/hel_dist/favicon.ico\" />\n    <title>comps-vue3-datav</title>\n    <!--\n      vue 被 external 成 window.Vue，独立访问本页时由这里的 CDN 提供运行时；\n      data-helappend=\"0\"：宿主通过 hel 解析本页时跳过该脚本，\n      使用宿主自己注入的那一份，避免双实例（双 vue 会导致响应式失效）。\n    -->\n    <script data-helappend=\"0\" src=\"https://unpkg.com/vue@3.5.45/dist/vue.global.prod.js\"></script>\n    <script type=\"module\" crossorigin src=\"/comps-vue3-datav/hel_dist/assets/index-Dj7Sxn1P.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vue3-datav/hel_dist/assets/preload-helper-BLPS1yfm.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vue3-datav/hel_dist/assets/shared-runtime-BRdfiJze.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vue3-datav/hel_dist/assets/vendor-DgE0e5Tn.js\">\n    <link rel=\"stylesheet\" crossorigin href=\"/comps-vue3-datav/hel_dist/assets/style-CyeDph1J.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
+    "create_at": "2026-11-21T05:42:41.207Z",
     "desc": "this version meta is created by hel-dev-utils@5.4.3"
   }
 }
